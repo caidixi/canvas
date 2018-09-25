@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page</title>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <h1>我的画板</h1>
+        <canvas id="myCanvas" width=800 height="600"></canvas>
+        <form>
+            画布名: <input type="text" id="name"><br>
+            <input type="button" value="加载画布" id="load">
+        </form>
+        <div>
+            <button id="save">保存画布</button>
+        </div>
+        <div>
+            <button id="clear">清空画布</button>
+        </div>
+        <link href="style/style.css" rel="stylesheet" type=text/css>
+        <div>
+            <script src=scripts/mainCanvas.js></script>
+        </div>
+    </body>
+</html>

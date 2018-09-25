@@ -1,0 +1,28 @@
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: lightblue;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: grey;
+    border: 5px solid black;
+}
+
+canvas {
+    background-color: white;
+}
